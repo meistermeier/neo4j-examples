@@ -1,0 +1,16 @@
+= jbang Neo4j example
+
+== Prerequisites
+1. Install https://github.com/jbangdev/jbang/[jbang].
+2. (optional for native compile) Install https://github.com/graalvm/graalvm-ce-builds/releases/tag/vm-20.3.0[GraalVM]
++
+and install the native image tools `gu install native-image`
+
+== Start the application
+e.g. to search for the role _Neo_: `jbang hello_neo4j.java "Neo"`
+
+== Use native
+If your _JAVA_HOME_ is not a _GRAALVM_HOME_:
+```
+GRAALVM_HOME=<your_graalvm_home> jbang --native hello_neo4j.java "Neo"
+```

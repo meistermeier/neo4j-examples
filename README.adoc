@@ -1,0 +1,15 @@
+= Neo4j / Spring Data Neo4j playground
+
+These are the examples I either created in the stream or my videos.
+
+== java-simple
+Small Java application to connect to a Neo4j instance.
+
+== spring-data-neo4j-example
+Spring Boot application that maps the entities of Neo4j's movie graph.
+
+== spring-boot-java-driver
+Spring Boot application with managed Neo4j Java driver.
+
+== jbang
+Use Neo4j to find actor details by certain roles.
