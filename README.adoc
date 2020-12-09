@@ -2,6 +2,10 @@
 
 These are the examples I either created in the stream or my videos.
 
+== Setup
+All the examples assume that you have an instance of Neo4j running
+and it is populated with the example movie dataset (hint: `:play movies`).
+
 == java-simple
 Small Java application to connect to a Neo4j instance.
 
